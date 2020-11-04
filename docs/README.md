@@ -1,8 +1,7 @@
 
 # UVic MUSE
 
-An application for streaming from MUSE headsets to MATLAB and other 
-platforms. 
+An application for streaming data from MUSE headsets to MATLAB and other platforms. This version works on Windows, Linux, and OSX. Note, a BLED112 dongle is required to communicate with the MUSE.
 
 ## Requirements
 
@@ -14,8 +13,6 @@ We highly recommend installing on a virtual environment (VE). You can build and 
 
 
 **Compatible with Python 3.x**
-
-**Compatible with MUSE _MU-02_ and _MU-03_**
 
 _Note: if you run into any issues, first check out out Common Issues
 and then the Issues section of [this](https://github.com/bardiabarabadi/uvicMUSE) repository_
@@ -147,7 +144,7 @@ On MacOSx: Application crashes after running:
 
 ```
 @misc{UVicMUSE,
-  author       = {Bardia Barabadi, Jamieson Fregeau},
+  author       = {Bardia Barabadi, Jamieson Fregeau, Olave Krigolson},
   title        = {uvic-muse},
   month        = March,
   year         = 2020,
