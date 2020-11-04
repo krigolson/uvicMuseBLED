@@ -1,5 +1,5 @@
 
-# UVic MUSE
+# UVic MUSE BLED
 
 An application for streaming data from MUSE headsets to MATLAB and other platforms. This version works on Windows, Linux, and OSX. Note, a BLED112 dongle is required to communicate with the MUSE.
 
