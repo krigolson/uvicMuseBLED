@@ -1,8 +1,8 @@
 
 # UVic MUSE
 
-An application for streaming from MUSE headsets to MATLAB and other 
-platforms. 
+An application for streaming from MUSE headsets to MATLAB, Python, and other 
+platforms.
 
 ## Software Requirements
 
@@ -140,8 +140,8 @@ We suggest using multiple instances of `get_xxx_chunk()`, but you can change the
     
     mu.set_udp_buffer_size(2048) % 2kB buffer
 
-## Pyhton Library
- If you wan to use MUSE's sensory data in python, you can use uvicmuse as a python library. Here is how it works:
+## Python Library
+ If you wan to use MUSE's sensory data in Python, you can use uvicmuse as a Python library. Here is how it works:
  
  First you need to import the `MuseWrapper` class into your code. Also, you will going to need the `asyncio` library.
  
@@ -193,7 +193,7 @@ On MacOSx: Application crashes after running:
 
 ```
 @misc{UVicMUSE,
-  author       = {Bardia Barabadi},
+  author       = {Bardia Barabadi, Olav Krigolson},
   title        = {uvic-muse},
   month        = March,
   year         = 2020,
